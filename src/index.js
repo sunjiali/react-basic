@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// React: 核心框架包
 ReactDOM.render(
   <React.StrictMode>
     <App />
