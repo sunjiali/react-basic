@@ -1,5 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
+import { Alert, Form } from "@awsui/components-react";
+import Button from "@awsui/components-react/button";
+class HelloC extends React.Component {
+  render() {
+    return <Button>Submit</Button>;
+  }
+}
 
 function App() {
   return (
@@ -18,6 +26,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <HelloC />
+      <Alert name='hhh'/>
+      <Form/>
     </div>
   );
 }
